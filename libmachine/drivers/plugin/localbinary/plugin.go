@@ -53,9 +53,9 @@ type Executor struct {
 }
 
 // driverPath finds the path of a driver binary by its name. The separate binary must be in the PATH and its name must be
-// `crc-machine-driverName`
+// `mmachine-driverName`
 func driverPath(driverName string, binaryPath string) string {
-	driverName = fmt.Sprintf("crc-driver-%s", driverName)
+	driverName = fmt.Sprintf("machine-driver-%s", driverName)
 	if binaryPath != "" {
 		return filepath.Join(binaryPath, driverName)
 	}

@@ -21,8 +21,7 @@ var (
 
 func RegisterDriver(d drivers.Driver) {
 	if os.Getenv(localbinary.PluginEnvKey) != localbinary.PluginEnvVal {
-		fmt.Fprintf(os.Stderr, `This is a hypervisor plugin binary for CodeReady Containers.
-Please use this plugin through the main 'crc' binary.
+		fmt.Fprintf(os.Stderr, `This is a hypervisor plugin binary.
 (Driver version: %s, API version: %d)
 `, d.DriverVersion(),
 			version.APIVersion)
