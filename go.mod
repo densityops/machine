@@ -1,4 +1,4 @@
-module github.com/code-ready/machine
+module github.com/densityops/machine
 
 require (
 	github.com/sirupsen/logrus v1.7.0
