@@ -3,8 +3,8 @@ package fakedriver
 import (
 	"fmt"
 
-	"github.com/code-ready/machine/libmachine/drivers"
-	"github.com/code-ready/machine/libmachine/state"
+	"github.com/densityops/machine/libmachine/drivers"
+	"github.com/densityops/machine/libmachine/state"
 )
 
 type Driver struct {

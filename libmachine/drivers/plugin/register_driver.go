@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/code-ready/machine/libmachine/drivers"
-	"github.com/code-ready/machine/libmachine/drivers/plugin/localbinary"
-	rpcdriver "github.com/code-ready/machine/libmachine/drivers/rpc"
-	"github.com/code-ready/machine/libmachine/version"
+	"github.com/densityops/machine/libmachine/drivers"
+	"github.com/densityops/machine/libmachine/drivers/plugin/localbinary"
+	rpcdriver "github.com/densityops/machine/libmachine/drivers/rpc"
+	"github.com/densityops/machine/libmachine/version"
 	log "github.com/sirupsen/logrus"
 )
 

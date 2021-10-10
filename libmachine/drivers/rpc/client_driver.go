@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/code-ready/machine/libmachine/drivers/plugin/localbinary"
-	"github.com/code-ready/machine/libmachine/state"
-	"github.com/code-ready/machine/libmachine/version"
+	"github.com/densityops/machine/libmachine/drivers/plugin/localbinary"
+	"github.com/densityops/machine/libmachine/state"
+	"github.com/densityops/machine/libmachine/version"
 	log "github.com/sirupsen/logrus"
 )
 

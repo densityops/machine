@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"github.com/code-ready/machine/libmachine/drivers"
-	"github.com/code-ready/machine/libmachine/state"
-	"github.com/code-ready/machine/libmachine/version"
+	"github.com/densityopsmachine/libmachine/drivers"
+	"github.com/densityopsmachine/libmachine/state"
+	"github.com/densityopsmachine/libmachine/version"
 )
 
 type Stacker interface {
